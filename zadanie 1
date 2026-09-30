@@ -1,0 +1,5 @@
+Wiązanie danych to proces ustanawiający połączenie między interfejsem aplikacji a wyświetlanymi przez nią danymi. 
+Jeśli powiązanie ma właściwe ustawienia, a dane dostarczają odpowiednie powiadomienia, gdy dane zmieniają swoją wartość,
+elementy powiązane z danymi zmieniają się automatycznie. Wiązanie danych może również oznaczać, że jeśli zewnętrzna reprezentacja
+danych w elemencie się zmieni, dane bazowe mogą być automatycznie aktualizowane, aby odzwierciedlić zmianę. 
+Na przykład, jeśli użytkownik edytuje wartość w elemencie, wartość danych bazowych jest automatycznie aktualizowana, odzwierciedlając tę zmianę.
