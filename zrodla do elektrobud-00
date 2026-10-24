@@ -1,0 +1,8 @@
+1. dokumentacja klasy ObservableCollection<T>
+https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-collections-objectmodel-observablecollection%7Bt%7D
+2. blindowanie w wpf
+https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/binding-sources-overview
+3. metoda .trim()
+https://learn.microsoft.com/en-us/dotnet/api/system.string.trim
+4. DataGrid 
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.datagrid.autogeneratecolumns
