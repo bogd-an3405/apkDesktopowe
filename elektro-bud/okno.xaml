@@ -1,0 +1,53 @@
+<Window x:Class="elektrobud.okno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="450" Width="900">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="280" />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dgprodukty" Grid.Column="0" IsReadOnly="True" />
+
+        <Grid Grid.Column="1" Margin="10,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="nazwa:" Margin="3" />
+            <TextBox x:Name="txtnazwa" Grid.Row="0" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="kodEAN:" Margin="3" />
+            <TextBox x:Name="txtkodEAN" Grid.Row="1" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="ilosc:" Margin="3" />
+            <TextBox x:Name="txtilosc" Grid.Row="2" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="kategoria:" Margin="3" />
+            <TextBox x:Name="txtkategoria" Grid.Row="3" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="sektor:" Margin="3" />
+            <TextBox x:Name="txtsektor" Grid.Row="4" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="regal:" Margin="3" />
+            <TextBox x:Name="txtregal" Grid.Row="5" Grid.Column="1" Margin="3" />
+
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="polka:" Margin="3" />
+            <TextBox x:Name="txtpolka" Grid.Row="6" Grid.Column="1" Margin="3" />
+
+            <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Content="dodaj" Click="dodaj_klik" Margin="3,10,3,3" />
+        </Grid>
+    </Grid>
+</Window>
